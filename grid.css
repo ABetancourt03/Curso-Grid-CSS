@@ -147,3 +147,11 @@ img {
 .footer {
   grid-area: footer;
 }
+
+.grid-implicit {
+  /* Grid de 4cx3r */
+  display: grid;
+  /* display: inline-grid; */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 200px);
+}
